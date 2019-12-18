@@ -1,0 +1,46 @@
+.alert .alert-info {
+    width: 60rem;
+    margin-top: 2rem;
+    /* color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem; */
+}
+
+@media screen and (max-width:600px) {
+    .card {
+        width: 30rem;
+        margin-bottom: 5px;
+        margin-top: 5px
+    }
+    
+    .container h2 {
+        text-align: center;
+        width: 30rem
+    }
+    
+    .form-group {
+        width: 35rem
+    }
+}
+
+@media screen and (min-width:600px) {
+    .card {
+        width: 60rem;
+        margin-bottom: 10px;
+        margin-top: 10px
+    }
+    
+    .container h2 {
+        text-align: center;
+        width: 50rem
+    }
+    
+    .form-group {
+        width: 60rem
+    }
+}
